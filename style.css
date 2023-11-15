@@ -1,0 +1,37 @@
+/* 1) Crea un selettore per selezionare l'<h1> nella sezione "hero", ovvero nel jumbotron */
+.jumbotron h1 {
+
+}
+
+/* 2) Crea un selettore per selezionare tutti i figli dell'elemento navbar */
+.nav > span {
+
+}
+
+/* 3) Crea un selettore per selezionare il link "Continua a leggere" del jumbotron */
+.jumbotron > .mb-0 {
+
+}
+
+/* 4) Crea un selettore per selezionare il primo blog post */
+.blog-main div:first-child {
+
+}
+
+/* 5) Crea un selettore per selezionare l'<hr> del primo blog post e colorarlo di rosso */
+.blog-post:first-of-type > hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid #dc3545;
+}
+
+/* 6) Crea un selettore per selezionare i link pari della navbar */
+.nav span:nth-child(2n) {
+
+}
+
+/* 7) Crea un selettore per selezionare tutti gli <li> della prima "ordered-list" della sidebar ("Archivio") */
+.blog-post:first-of-type ul > li {
+    
+}
